@@ -1,17 +1,12 @@
 <script setup lang="ts">
-import { RouterLink } from 'vue-router';
+import { RouterLink } from 'vue-router'
 
 </script>
 
 <template>
   <header>
-
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/a">Home</RouterLink>
-        <RouterLink to="/b">About</RouterLink>
-      </nav>
-    </div>
+    <nav class="bg-white w-full shadow-md">
+    </nav>
   </header>
 
   <RouterView />
