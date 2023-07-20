@@ -5,7 +5,15 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'raleway': ['Raleway', 'sans-serif']
+    },
+    extend: {
+      colors: {
+        'ready-green': '#79B625',
+        'soldout-red': '#E64580',
+      }
+    },
   },
   plugins: [],
 }
