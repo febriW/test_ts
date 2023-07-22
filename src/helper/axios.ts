@@ -23,12 +23,4 @@ axiosInstance.interceptors.response.use(
   }
 )
 
-const AxiosPlugin: Plugin = {
-  install(app) {
-    axiosInstance;
-    app.config.globalProperties.$axios = axiosInstance
-    app.provide('$axios', axiosInstance)
-  }
-}
-
-export default AxiosPlugin
+export default axiosInstance

@@ -44,3 +44,19 @@ npm run build
 ```sh
 npm run lint
 ```
+
+
+### How to run the apps ###
+Move to locate file { For this example dist folder }
+
+```sh
+cd ./dist
+```
+
+then run this script to make virtual host
+
+```sh
+php -S localhost:8000
+```
+
+You can custom that port as you want

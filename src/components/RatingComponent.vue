@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import { computed } from 'vue';
-import FullStarIcon from '@/components/icons/IconFilledStar.vue';
-import HalfStarIcon from '@/components/icons/IconHalfFilledStar.vue';
-import EmptyStarIcon from '@/components/icons/IconNotFilledStar.vue';
+import { computed } from 'vue'
+import FullStarIcon from '@/components/icons/IconFilledStar.vue'
+import HalfStarIcon from '@/components/icons/IconHalfFilledStar.vue'
+import EmptyStarIcon from '@/components/icons/IconNotFilledStar.vue'
+import type RatingType from '@/types/RatingType'
 
-const props = defineProps<{ rating: number, maxRating?: number }>();
-
-const fullStars = computed(() => Math.floor(props.rating));
-const hasHalfStar = computed(() => props.rating % 1 !== 0);
-const emptyStars = computed(() => (props.maxRating || 5) - Math.ceil(props.rating));
+const props = defineProps<RatingType>()
+const fullStars = computed(() => Math.floor(props.rating))
+const hasHalfStar = computed(() => props.rating % 1 !== 0)
+const emptyStars = computed(() => (props.maxRating || 5) - Math.ceil(props.rating))
 </script>
 
 <template>

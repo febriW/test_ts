@@ -6,12 +6,13 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'raleway': ['Raleway', 'sans-serif']
+      'raleway': ['Raleway']
     },
     extend: {
       colors: {
         'ready-green': '#79B625',
         'soldout-red': '#E64580',
+        'detail' : '#006A4E'
       }
     },
   },

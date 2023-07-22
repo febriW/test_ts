@@ -1,14 +1,9 @@
 <script setup lang="ts">
-import { RouterLink } from 'vue-router'
-
+import { RouterView } from 'vue-router'
+import Base from '@/views/Base.vue'
 </script>
 
 <template>
-  <header>
-    <nav class="bg-white w-full shadow-md">
-    </nav>
-  </header>
-
-  <RouterView />
+  <component :is="Base"></component>
 </template>
 

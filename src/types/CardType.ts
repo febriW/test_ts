@@ -1,9 +1,11 @@
 export default interface CardTypes {
-    stock?: string,
-    image?: string,
-    title?: string,
-    point?: number,
-    review?: number,
+    id: number,
+    stock: number,
+    image: string,
+    title: string,
+    point: number,
+    review: number,
     wishlist: number,
-    label?: string,
+    label: string | undefined,
+    rate: number,
 }
