@@ -16,7 +16,7 @@ import IconTWT from '@/components/icons/IconTwitter.vue'
             <div class="flex space-x-4">
                 <a href="#" class="text-white hover:text-gray-400 font-raleway">Terms & Condition</a>
                 <a href="#" class="text-white hover:text-gray-400 font-raleway">|</a>
-                <a href="#" class="text-white hover:text-gray-400 font-raleway">Copyright &copy; 2018. All rights reserved. PT Radya Gita Bahagia</a>
+                <a href="#" class="text-white hover:text-gray-400 font-raleway">Copyright &copy; 2018. All rights reserved. Febri W</a>
             </div>
         </div>
     </div>
