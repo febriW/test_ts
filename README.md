@@ -60,3 +60,5 @@ php -S localhost:8000
 ```
 
 You can custom that port as you want
+
+See [Demo](https://febriw-simplecommerce.netlify.app/).
